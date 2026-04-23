@@ -77,10 +77,10 @@ public class TicketService {
         return  repository.findAll().stream().filter(ticket -> ticket.getTitle().equals(titre)).toList();
     }
     public Optional<List<Ticket>> filterByStatus(Statut statut){
-       return  Optional.of(ticketsHash.stream().filter(ticket->ticket.getStatut().equals(statut)).toList());
+       return  Optional.of(repository.findAll().stream().filter(ticket->ticket.getStatut().equals(statut)).toList());
     }
     public List<Ticket> filterByPriority(Priorite priorite){
-        return ticketsHash.stream().filter(ticket->ticket.getPriorite().equals(priorite)).toList();
+        return repository.findAll().stream().filter(ticket->ticket.getPriorite().equals(priorite)).toList();
     }
     public void supprimerTicket(String ticketId){
         if(ticketId==null){
