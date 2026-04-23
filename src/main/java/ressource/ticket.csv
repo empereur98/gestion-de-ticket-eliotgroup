@@ -1,0 +1,3 @@
+id;titre;description;demandeur;service;priorite;statut;dateCreation;dateMiseAJour;technicien
+5fa058a9-e24d-4724-935e-62ec5974e48e;ordinateur en panne;mon ordinateur ne fonctionne pas depuis hier soir;Mr Abena;RH;MOYEN;OUVERT;2026-04-22T14:31:41.1276507;2026-04-22T14:31:41.1266594;
+732e12e7-4973-40fc-b916-80c21912b7f6;reparer la table;ma table de bureau est en panne;Mme francoise;DIRECTION;ELEVEE;OUVERT;2026-04-22T14:32:49.1910091;2026-04-22T14:32:49.1910091;Mr rodrigue
